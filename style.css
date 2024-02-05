@@ -1,0 +1,54 @@
+html, body, h1, h2, h3, p, img {
+  margin: 0;
+  padding: 0;
+}
+
+.flex-container{
+  display: flex;
+  justify-content:space-around;
+  padding: 70px;
+}
+
+a {
+  color: #757676;
+  text-decoration: none;
+}
+
+.polaroid {
+  width: 270px;
+  border-width: 1px solid grey;
+  box-shadow: 10px 10px 30px rgba(179, 179, 179, 0.895);
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.foto {
+  border-radius: 30px;
+  max-width: 100%;
+  height: auto;
+}
+
+.list-inline {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.list-inline li {
+  margin-right: 10px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  display: flex;
+  justify-content: flex-end;
+  width: 35px;
+  height: 35px;
+  padding: 20px;
+}
